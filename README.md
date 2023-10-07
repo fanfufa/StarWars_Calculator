@@ -1,5 +1,5 @@
-# Star Wars Character calculator --> IN PROGRESS  
+# Star Wars Characters Calculator --> IN PROGRESS  
 
 Technologies used 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+[![Blog]("https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg")]
           
