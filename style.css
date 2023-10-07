@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+  /* background-image: ; */
+}
+
+#calc{
+    margin: 40vh 30vw;
+    border: 2px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#painel{
+    border: 1px ridge blue;
+  /*/  margin: 5vh auto 5vh; /* top left right bottom */
+    padding: 20px;
+    width: 17vw;
+}
+
+.number{
+    border: 1px solid green;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+/*#mode{
+    float: right;
+    width: 30px;
+    margin-top: 0px;
+}*/
+
+.character{
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.character div{
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+}
