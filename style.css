@@ -9,38 +9,46 @@ body{
 }
 
 #calc{
-    margin: 40vh 30vw;
+    position: absolute;
     border: 2px solid blue;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    grid-template-columns: repeat(4, 1fr);
+    width: auto; /* 40vw */
+    grid-template-rows: repeat(6, 1fr);
+    height: 100vh;
+    margin: 0px 20vw;
+    gap: 2px;
+ }
 
 #painel{
-    border: 1px ridge blue;
-  /*/  margin: 5vh auto 5vh; /* top left right bottom */
+    border: 2px ridge rgb(221, 0, 136);
+    margin: auto; /* alinha no centro do container */
+    margin-top: 10px;
+    width: 70%; 
     padding: 20px;
-    width: 17vw;
+    grid-area: 1/1/1/5; /*linha-inicial / coluna-inicial / linha-final / coluna-final;*/
+}
+
+#onoff{
+    width: 75%;
+    grid-column: span 2;
 }
 
 .number{
+    margin-top: 20px;
     border: 1px solid green;
-    font-size: 16px;
-    padding: 1rem;
+    width: 60px;
+    height: 40px;
+    margin-left:25px;
 }
 
-/*#mode{
-    float: right;
-    width: 30px;
-    margin-top: 0px;
-}*/
-
 .character{
-    border: 5px solid;
+    position: absolute;
+    border: none;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: flex-end;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     padding: 1rem;
 }
