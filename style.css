@@ -5,45 +5,41 @@
 }
 
 body{
-  /* background-image: ; */
 }
 
 #calc{
     position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 2px solid blue;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: auto; /* 40vw */
-    grid-template-rows: repeat(6, 1fr);
-    height: 100vh;
-    margin: 0px 20vw;
-    gap: 2px;
+    height: 500px;
+    width: 500px;
+    /*margin-left: 300px; NÃO COLOCA AQUI --> USA AQUELE MEDIA QUERY E LÁ VOCÊ COLOCA ISSO PARA TELAS MAIORES*/
  }
+
+ .number{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 10px;
+    width: 90px;
+    height: 8%;
+    margin-left: 19px;
+ }
+
+#onoff{
+    width: 209px;
+}
 
 #painel{
     border: 2px ridge rgb(221, 0, 136);
     margin: auto; /* alinha no centro do container */
-    margin-top: 10px;
-    width: 70%; 
+    width: 85%; 
     padding: 20px;
-    grid-area: 1/1/1/5; /*linha-inicial / coluna-inicial / linha-final / coluna-final;*/
-}
-
-#onoff{
-    width: 75%;
-    grid-column: span 2;
-}
-
-.number{
-    margin-top: 20px;
-    border: 1px solid green;
-    width: 60px;
-    height: 40px;
-    margin-left:25px;
 }
 
 .character{
-    position: absolute;
+    position: absolute; /* muda aqui para absoluto */
     border: none;
     display: flex;
     flex-direction: column;
