@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <title> Calculadora </title>
+    <!-- CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 
@@ -16,33 +19,88 @@
     <div></div>
     <div></div>
 </nav>
-    <div id="calc">
+
+    <div class="container p-1" id="calculator">
         <!--Line 1-->
-        <div id="painel"></div> 
+        <div class="row" style="padding: 40px;">
+            <input class="col" id="painel">
+        </div>
+         
         <!--Line 2-->
-        <div id="onoff" class="number"> ON/OFF </div>
-        <div class="number"> C </div>
-        <div class="number"> % </div>
+        <div class="row m-4">
+            <div class="col-6 text">
+                <div class="number"> ON/OFF </div>
+            </div>
+            <div class="col text">
+                <div class="number"> C </div>
+            </div>
+            <div class="col text">
+                <div class="number"> % </div>
+            </div>
+        </div>  
         <!--Line 3 -->
-        <div class="number"> 1  </div> 
-        <div class="number"> 2  </div>
-        <div class="number"> 3  </div> 
-        <div class="number"> + </div>
+        <div class="row m-4">
+            <div class="col text">
+                <div class="number "> 1 </div>
+            </div>
+            <div class="col text">
+                <div class="number"> 2 </div>
+            </div>
+            <div class="col text">
+                <div class="number"> 3 </div>
+            </div>
+            <div class="col text">
+                <div class="number"> + </div>
+            </div>
+        </div>  
         <!--Line 4 -->
-        <div class="number"> 4  </div>
-        <div class="number"> 5  </div> 
-        <div class="number"> 6  </div>
-        <div class="number"> - </div>
+        <div class="row text m-4">
+            <div class="col">
+                <div class="number"> 4 </div>
+            </div>
+            <div class="col">
+                <div class="number"> 5 </div>
+            </div>
+            <div class="col">
+                <div class="number"> 6 </div>
+            </div>
+            <div class="col">
+                <div class="number"> - </div>
+            </div>
+        </div>  
         <!--Line 5-->
-        <div class="number"> 7  </div> 
-        <div class="number"> 8  </div>
-        <div class="number"> 9  </div> 
-        <div class="number"> x </div>
+        <div class="row text m-4">
+            <div class="col">
+                <div class="number"> 7 </div>
+            </div>
+            <div class="col">
+                <div class="number"> 8 </div>
+            </div>
+            <div class="col">
+                <div class="number"> 9 </div>
+            </div>
+            <div class="col">
+                <div class="number"> x </div>
+            </div>
+        </div>  
         <!--Line 6 -->
-        <div class="number"> 0  </div>
-        <div class="number"> = </div>
-        <div class="number"> . </div>
-        <div class="number"> / </div>    
+        <div class="row text m-4">
+            <div class="col">
+                <div class="number"> 0 </div>
+            </div>
+            <div class="col">
+                <div class="number"> = </div>
+            </div>
+            <div class="col">
+                <div class="number"> . </div>
+            </div>
+            <div class="col">
+                <div class="number"> / </div>
+            </div>
+        </div>    
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,45 +1,38 @@
 *{
-    margin: 0%;
-    padding: 0px;
     box-sizing: border-box;
 }
 
 body{
 }
 
-#calc{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+/* ========== Calculator ============= */
+
+#calculator{
     border: 2px solid blue;
-    height: 500px;
-    width: 500px;
-    /*margin-left: 300px; NÃO COLOCA AQUI --> USA AQUELE MEDIA QUERY E LÁ VOCÊ COLOCA ISSO PARA TELAS MAIORES*/
+    width: 450px;
+    height: 600px
  }
 
  .number{
-    border: 2px solid black;
-    padding: 5px;
-    margin: 10px;
-    width: 90px;
-    height: 8%;
-    margin-left: 19px;
+    border: 2px solid black;     
  }
-
-#onoff{
-    width: 209px;
-}
 
 #painel{
     border: 2px ridge rgb(221, 0, 136);
-    margin: auto; /* alinha no centro do container */
-    width: 85%; 
     padding: 20px;
+    width: 100%;
 }
 
+.text{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* ============= Character ============= */
+
 .character{
-    position: absolute; /* muda aqui para absoluto */
+   /* position: absolute; /* muda aqui para absoluto */
     border: none;
     display: flex;
     flex-direction: column;
