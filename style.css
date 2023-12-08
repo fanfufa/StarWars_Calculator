@@ -10,11 +10,14 @@ body{
 #calculator{
     border: 2px solid blue;
     width: 450px;
-    height: 600px
+    height: 600px;
+    background-color: rgb(211, 211, 211)
+    ;
  }
 
  .number{
-    border: 2px solid black;     
+    border: 2px solid black;  
+    box-shadow: 4px 4px 2px 2px rgb(0, 153, 255);   
  }
 
 #painel{
@@ -46,4 +49,10 @@ body{
     height: 10px;
     width: 10px;
     background-color: aqua;
+}
+
+@media (max-width: 500px) {
+    .character{
+        flex-direction: row;  
+    }
 }
